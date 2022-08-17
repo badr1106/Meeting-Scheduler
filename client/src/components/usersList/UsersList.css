@@ -1,0 +1,55 @@
+.list-container {
+  width: 100%;
+}
+
+.list-record {
+  display: flex;
+  border: 1px solid grey;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0px 20px 0px 20px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+.list-record-name {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 20px;
+  font-weight: 600;
+  word-spacing: 5px;
+}
+
+.user-action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.user-view,
+.user-edit,
+.user-delete {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  font-size: 25px !important;
+}
+
+.user-view,
+.user-edit,
+.user-delete:hover {
+  cursor: pointer;
+}
+
+.user-view {
+  color: #00a8ff;
+}
+
+.user-edit {
+  color: #ffa800;
+}
+
+.user-delete {
+  color: #ff0000;
+}

@@ -1,0 +1,47 @@
+.users-list-main-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.user-list-container {
+  margin-top: 20px;
+}
+
+.user-list-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-list-header {
+  font-size: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.user-list-header-action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.new-user-button,
+.new-meeting-button {
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.new-user-button {
+  background-color: #4caf50;
+}
+
+.new-meeting-button {
+  background-color: #008cba;
+}
